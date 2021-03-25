@@ -1,0 +1,73 @@
+.textbox {
+    max-width: none;
+    justify-content: left;
+    margin-bottom: 5ch;
+}
+.rates {
+    max-width: 70ch;
+    width: 70ch;
+    height: 10ch;
+}
+.content-textbox {
+    justify-content: left;
+    text-align: left;
+    margin: 3ch;
+}
+.rate-container {
+    margin-left: 20ch;
+}
+.upper-title {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1ch;
+}
+.upper-title h1 {
+    position: relative;
+    left: -1ch;
+}
+.sub-title {
+    position: relative;
+    left: -1.5ch;
+    font-size: 20px;
+    max-width: 70ch;
+}
+.upper-sub-title {
+    max-width: 80ch;
+}
+.rates{
+    justify-content: center;
+    display: flex;
+}
+.reviwers {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 1ch;
+}
+.rates span {
+    position: relative;
+    padding: 1ch;
+    left: -3ch;
+    top: 1.5ch;
+    justify-content: center;
+}
+#rate2 {
+    position: relative;
+    right: -10ch;
+}
+#rate3 {
+    position: relative;
+    right: -20ch;
+}
+
+#box2 {
+    position: relative;
+    bottom: -5ch;
+    
+}
+#box3 {
+    position: relative;
+    bottom: -10ch;
+    
+}

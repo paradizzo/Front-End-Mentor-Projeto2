@@ -1,0 +1,145 @@
+:root {
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+body, html {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.bg-top {
+    position: absolute;
+    z-index: 5;
+}
+.bg-bottom {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.textbox {
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 50ch;
+    justify-content: center;
+}
+.upper-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    color:hsl(300, 43%, 22%);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30ch;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-family: 'Spartan', sans-serif;
+    margin-bottom: 5ch;
+}
+.upper-sub-title {
+    max-width: 50ch;
+    font-family: 'Spartan', 'Trebuchet MS';
+    margin: 2ch;
+}
+.sub-title {
+    color: hsl(303, 10%, 53%);
+    font-size: 16px;
+    max-width: 40ch;
+    
+}
+.rate-container {
+    justify-content: center;
+}
+.rate-box{
+    max-width: 70ch;
+    width: 45ch;
+    margin: 2ch;    
+    display: inline;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+.rates {
+    padding: 20px;
+    background: hsl(300, 24%, 96%);
+    margin: 2ch;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 25px;
+}
+.reviwers {
+    color: var(--VeryDarkMagenta);
+    font-weight: 700;
+    font-family:'Spartan', 'Trebuchet MS';
+}
+.comentary-box {
+    padding: 10px;
+    margin: 2ch;
+    background: var(--VeryDarkMagenta);
+    border-radius: 10px;
+    max-width: 61ch;
+    max-height: 50ch;
+    text-align: center;
+  
+}
+.comentary-header {
+    position: relative;
+    display: flex;
+    margin: 2ch;
+}
+.person-name {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    margin-left: 3ch;
+    letter-spacing: 1px;
+    font-family:'Spartan', 'Trebuchet MS';
+    line-height: 20px;
+    font-weight: 700;
+    
+}
+.person-image {
+    border-radius: 50%;
+    max-width: 5ch;
+    
+
+}
+.buyer {
+    color: var(--SoftPink);
+    font-weight: 100;
+
+}
+.comentary {
+    color: white;
+    font-family:'Spartan', sans-serif;
+    letter-spacing: .5px;
+    margin: 3ch 3ch;
+
+}
+.comentary p {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+}
+.comentary-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
